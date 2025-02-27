@@ -30,6 +30,16 @@ This was inspired by [an image I saw on Reddit](https://www.reddit.com/r/Program
 
 ### Windows
 
+**Method 1 (recommended)**
+
+1. Type the following in a terminal:
+
+   PowerShell: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.ps1; ./install.ps1`
+   
+   Command Prompt: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.bat && install.bat`
+
+**Method 2**
+
 1. Download `install.bat` or `install.ps1` for Command Prompt or PowerShell respectively.
 2. Type `install.bat` or `./install.ps1` in Command Prompt or PowerShell respectively.
 

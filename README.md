@@ -13,6 +13,7 @@ This was inspired by [an image I saw on Reddit](https://www.reddit.com/r/Program
   - Bash or equivalent for Linux / macOS (alternatively use PowerShell)
   - Command Prompt or PowerShell for Windows
 - Git
+- cURL (optional)
 
 ### Linux / macOS
 
@@ -41,6 +42,8 @@ The script installs the alias globally by default. Specify `--local` or `-l` whe
 The script will either display `install success` or `install failed` after running.
 
 If you see `install failed: git not installed`, you should install Git in any appropriate manner for your system, and ensure it is working by typing `git --version` at a terminal.
+
+If you only see `install failed`, look for other errors that may be displayed before this message.
 
 ## Disclaimer
 

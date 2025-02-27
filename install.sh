@@ -5,7 +5,7 @@ arg="${arg#-}"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
-NC='\033[0m' # No color
+NC='\033[0m'
 
 if ! command -v git &>/dev/null; then
 	echo -e "${RED}install failed: git not installed${NC}"

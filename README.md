@@ -57,6 +57,6 @@ If you only see `install failed`, look for other errors that may be displayed be
 
 ## Disclaimer
 
-This is intended as a joke.
+This program is intended as a joke.
 
 I will **not** be held be responsible for any damage caused as a result of using `git shove` or `git push --force`.

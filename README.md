@@ -21,7 +21,7 @@ This was inspired by [an image I saw on Reddit](https://www.reddit.com/r/Program
 
 1. Type the following in a terminal:
    
-   `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.sh && chmod +x install.sh && ./install.sh`
+   `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.sh && chmod +x install.sh && ./install.sh && rm install.sh`
 
 **Method 2**
 
@@ -34,9 +34,9 @@ This was inspired by [an image I saw on Reddit](https://www.reddit.com/r/Program
 
 1. Type the following in a terminal:
 
-   PowerShell: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.ps1; ./install.ps1`
+   PowerShell: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.ps1; ./install.ps1; del install.sh`
    
-   Command Prompt: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.bat && install.bat`
+   Command Prompt: `curl -sLO https://raw.githubusercontent.com/OldUser101/shove/refs/heads/master/install.bat && install.bat && del install.sh`
 
 **Method 2**
 
